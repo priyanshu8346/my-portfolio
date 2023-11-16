@@ -2,12 +2,16 @@ import React from 'react'
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import reactIcon from "../assets/react.png";
-// import graphql from "../assets/graphql.png";
+import node from "../assets/node.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import sql from "../assets/SQL.png";
 import javascript from "../assets/javascript.png";
 import  dsa  from "../assets/Data structure.png";
+import  express  from "../assets/expressjs.png";
+import  mongodb  from "../assets/icons8-mongodb-240.png";
+
+
 
 
 const Experience = () => {
@@ -34,7 +38,7 @@ const Experience = () => {
         {
             id:4,
             address:reactIcon,
-            style:"shadow-blue-500",
+            style:"shadow-blue-800",
             title:"ReactJS"
         },
         {
@@ -60,7 +64,26 @@ const Experience = () => {
             address:tailwind,
             style:"shadow-gray-500",
             title:"Tailwind"
+        },
+        {
+            id:9,
+            address:node,
+            style:"shadow-green-500",
+            title:"NodeJS"
+        },
+        {
+            id:10,
+            address:express,
+            style:"shadow-gray-500",
+            title:"expressJS"
+        },
+        {
+            id:11,
+            address:mongodb,
+            style:"shadow-green-800",
+            title:"mongoDB"
         }
+        
     ]
 
     return (
