@@ -34,10 +34,7 @@ const Home = () => {
             className=" py-4 text-gray-400 text-xs: "
             style={{ fontSize: "1rem", maxWidth: "80%" }}
           >
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae
-            neque est excepturi architecto cumque illo ut, laboriosam rerum
-            atque dignissimos, minus quis! Fuga, illo? Tenetur neque similique
-            eligendi natus fugit fugiat perspiciatis.
+            A driven and passionate final year IIEST Shibpur student with a strong foundation in MERN stack and DSA. Proven problem-solving skills with over 700 DSA problems conquered. A team player with exceptional leadership and organizational abilities. Open to work and eager to make a positive impact.
           </p>
           <div>
             <button className="group flex flex-row items-center justify-center rounded-md bg-gradient-to-r from-cyan-500 to to-blue-500 px-6 py-2">

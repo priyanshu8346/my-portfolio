@@ -7,9 +7,13 @@ const About = () => {
             <div className='text-4xl text-start font-bold my-12'>
                 <p className=' inline border-b-2 border-gray-400'>About</p>
             </div>
-            <p className=' font-semibold'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, maiores fugit quo blanditiis debitis totam impedit nam voluptate delectus, fugiat molestiae. Voluptatum accusamus quos deleniti animi aliquam quae dolorum totam. Tempora natus officia vero! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt harum perferendis nam maxime esse cupiditate excepturi. Cupiditate laudantium et voluptatibus maxime libero, dignissimos enim omnis dicta eveniet! Ullam cum atque facere dolor!</p>
+            <p className=' font-semibold'>I am a highly motivated and results-oriented final year student at IIEST Shibpur with a passion for technology and problem-solving. I possess a strong foundation in the MERN stack (MongoDB, Express.js, React.js, and Node.js) and have honed my problem-solving skills by successfully tackling over 700 Data Structures and Algorithms problems.
+
+Beyond my technical expertise, I am an active and enthusiastic individual with a proven track record of leadership and organizational skills. I have played a key role as an event manager in Rebeca, IIEST Shibpur's cultural fest, and as a joint coordinator in Sphuran, the electrical engineering department fest. I have also volunteered extensively across various departments, demonstrating my ability to take on challenges and work effectively in collaborative environments.
+
+</p>
             <br/>
-            <p className=' font-semibold'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis iure aliquid possimus, numquam, delectus molestias a fuga natus quidem sint dolore corrupti atque praesentium blanditiis eos voluptas aut voluptates. Accusamus nisi culpa quas totam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ullam provident, quibusdam accusantium porro quo libero dolorum, mollitia nobis nisi recusandae laboriosam? Et saepe, repellendus cumque excepturi similique fugiat quam aliquid eligendi.</p>
+            <p className=' font-semibold'>To showcase my skills and accomplishments, I have created this portfolio website that highlights my projects, experiences, and technical proficiency. I am eager to apply my knowledge and skills to real-world challenges and contribute to meaningful projects.</p>
         </div>
     </div>
   )
