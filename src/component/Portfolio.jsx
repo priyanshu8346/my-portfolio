@@ -5,6 +5,8 @@ import project1 from "../assets/portfolio/project 1.jpeg";
 import scintillation from "../assets/portfolio/Scintillation.jpeg";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
 import EDC from "../assets/portfolio/EDC.jpeg";
+import Food from "../assets/portfolio/Food.png";
+
 
 const Portfolio = () => {
 
@@ -45,7 +47,13 @@ const Portfolio = () => {
             address:EDC,
             name:"EDC",
             repo:"https://github.com/priyanshu8346/edc-1"
-        }
+        },
+        {
+          id:7,
+          address:Food,
+          name:"Food-ordering-app",
+          repo:"https://github.com/priyanshu8346/food-app"
+      }
     ]
     
   return (
