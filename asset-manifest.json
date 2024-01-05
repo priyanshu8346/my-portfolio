@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.86ee0e95.css",
-    "main.js": "/my-portfolio/static/js/main.18136eea.js",
+    "main.css": "/my-portfolio/static/css/main.512b6f7a.css",
+    "main.js": "/my-portfolio/static/js/main.ce407eda.js",
     "static/media/pocketnews.jpg": "/my-portfolio/static/media/pocketnews.00669859bcfc65145d79.jpg",
+    "static/media/HeroImage.png": "/my-portfolio/static/media/HeroImage.1eb8c6dd60ef8755b7c4.png",
     "static/media/Food.png": "/my-portfolio/static/media/Food.9a5b9df4bb2ea8f1847c.png",
-    "static/media/HeroImage.png": "/my-portfolio/static/media/HeroImage.5833c0fbe5c31dfee534.png",
     "static/media/EDC.jpeg": "/my-portfolio/static/media/EDC.0398043eeaafb5d21a58.jpeg",
     "static/media/reactWeather.jpg": "/my-portfolio/static/media/reactWeather.a1988356c4f5a620716e.jpg",
     "static/media/project 1.jpeg": "/my-portfolio/static/media/project 1.55438e90b081e318b068.jpeg",
@@ -20,11 +20,11 @@
     "static/media/expressjs.png": "/my-portfolio/static/media/expressjs.e8ec3caa8847fe10e309.png",
     "static/media/javascript.png": "/my-portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/my-portfolio/index.html",
-    "main.86ee0e95.css.map": "/my-portfolio/static/css/main.86ee0e95.css.map",
-    "main.18136eea.js.map": "/my-portfolio/static/js/main.18136eea.js.map"
+    "main.512b6f7a.css.map": "/my-portfolio/static/css/main.512b6f7a.css.map",
+    "main.ce407eda.js.map": "/my-portfolio/static/js/main.ce407eda.js.map"
   },
   "entrypoints": [
-    "static/css/main.86ee0e95.css",
-    "static/js/main.18136eea.js"
+    "static/css/main.512b6f7a.css",
+    "static/js/main.ce407eda.js"
   ]
 }
