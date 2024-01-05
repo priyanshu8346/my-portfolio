@@ -25,6 +25,9 @@
   #hero img{
     max-height:35vh;
   }
+  #hero img:hover{
+    transform: none;
+  }
 }
 
 /* @media screen and (max-width: 1020px) {

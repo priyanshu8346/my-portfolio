@@ -59,7 +59,7 @@ const Portfolio = () => {
   return (
     <div
       name="Portfolio" id="portfolio"
-      className=" w-full px-6 sm:px-0 bg-gradient-to-b from-black to-gray-800 text-white "
+      className=" w-full px-6 py-24 sm:px-0 bg-gradient-to-b from-black to-gray-800 text-white "
     >
       <div className="w-11/12  flex flex-col justify-between sm:justify-start mx-auto">
         <div>

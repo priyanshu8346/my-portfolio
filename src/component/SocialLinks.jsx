@@ -24,8 +24,7 @@ const SocialLinks = () => {
         {
             id:4,
             child:(<>Resume <BsFillPersonLinesFill size={'2rem'}/></>),
-            href:"../assets/Priyanshu Agrawal.pdf",
-            download:true,
+            href:"https://drive.google.com/file/d/1cEIHc2QrTSh3XrU48ykd5g3sxcwvMoj3/view?usp=drivesdk",
             style:"rounded-br-md"
         }
     ]
@@ -34,7 +33,7 @@ const SocialLinks = () => {
         <ul>
             {links.map(({id, child, href, download, style})=>{
                 return <>
-                <li key={id} className={'flex justify-center items-center w-[9.5rem] h-10 bg-white px-4 ml-[-6.25rem] hover:ml-[-0.625rem] duration-300' + " " + style}><a href={href} className='flex justify-between items-center w-full font-bold text-lg ' download={download} target='_blank' rel='noreferrer'>{child} </a></li>
+                <li key={id} className={'flex justify-center items-center w-[9.5rem] h-10 bg-white px-4 ml-[-6.25rem] hover:ml-[-0.625rem] duration-300 ' + style}><a href={href} className='flex justify-between items-center w-full font-bold text-lg ' target='_blank' rel='noreferrer'>{child} </a></li>
                 </>
             })}
         </ul>
