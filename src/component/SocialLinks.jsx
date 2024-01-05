@@ -24,7 +24,7 @@ const SocialLinks = () => {
         {
             id:4,
             child:(<>Resume <BsFillPersonLinesFill size={'2rem'}/></>),
-            href:"../assets/Priyanshu resume.pdf",
+            href:"../assets/Priyanshu Agrawal.pdf",
             download:true,
             style:"rounded-br-md"
         }
