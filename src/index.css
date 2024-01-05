@@ -18,11 +18,17 @@
   }
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 500px) {
+  #hero{
+    max-width: 80%;
+  }
+}
+
+/* @media screen and (max-width: 1020px) {
 #socialLink {
     visibility: hidden;
   }
-}
+} */
 
 
 

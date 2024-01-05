@@ -37,6 +37,7 @@ const Home = () => {
             A driven and passionate final year IIEST Shibpur student with a strong foundation in MERN stack and DSA. Proven problem-solving skills with over 700 DSA problems conquered. A team player with exceptional leadership and organizational abilities. Open to work and eager to make a positive impact.
           </p>
           <div>
+            <div className="flex flex-row">
             <button className="group flex flex-row items-center justify-center rounded-md bg-gradient-to-r from-cyan-500 to to-blue-500 px-6 py-2">
               <Link to="Portfolio" smooth duration={500}>Portfolio</Link>
               <span>
@@ -46,9 +47,19 @@ const Home = () => {
                 />
               </span>
             </button>
+            <button className="group flex flex-row items-center justify-center rounded-md bg-gradient-to-r from-cyan-500 to to-blue-500 px-6 py-2 mx-5">
+              <Link to="Contact" smooth duration={500}>Want to Hire?</Link>
+              <span>
+                <MdKeyboardArrowRight
+                  size={25}
+                  className=" group-hover:rotate-90 duration-300 "
+                />
+              </span>
+            </button>
+            </div>
           </div>
         </div>
-        <div className=" h-full md:w-5/12 xs:w-12/12 mt-8">
+        <div className=" h-full md:w-5/12 xs:w-12/12 mt-8" id="hero">
           <img
             className="m-auto rounded-2xl hover:scale-110 duration-[400ms]"
             style={{ height: "50vh", aspectRatio: "45:50", maxWidth: "auto" }}
