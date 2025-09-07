@@ -1,4 +1,5 @@
 import React from "react";
+
 import pocketnews from "../assets/portfolio/pocketnews.jpg";
 import textPlay from "../assets/portfolio/text-play.jpg";
 import project1 from "../assets/portfolio/project 1.jpeg";
@@ -6,55 +7,70 @@ import scintillation from "../assets/portfolio/Scintillation.jpeg";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
 import EDC from "../assets/portfolio/EDC.jpeg";
 import Food from "../assets/portfolio/Food.png";
+// Add placeholders for new images (user will add images)
+import reviewAI from "../assets/portfolio/reviewAI.png";
+import Youtube from "../assets/portfolio/Youtube.png";
 
 
 const Portfolio = () => {
 
 
-    const links=[
-        {
-            id:1,
-            address:project1,
-            name:"Tijori",
-            repo:"https://github.com/priyanshu8346/Tijori"
-        },
-        {
-            id:2,
-            address:pocketnews,
-            name:"PocketNews",
-            repo:"https://github.com/priyanshu8346/PocketNews"
-        },
-        {
-            id:3,
-            address:textPlay,
-            name:"Text-Play",
-            repo:"https://github.com/priyanshu8346/text-play"
-        },
-        {
-            id:4,
-            address:reactWeather,
-            name:"Weather App",
-            repo:"https://github.com/priyanshu8346/weather-app"
-        },
-        {
-            id:5,
-            address:scintillation,
-            name:"Scintillation",
-            repo:"https://github.com/priyanshu8346/scintillation2023"
-        },
-        {
-            id:6,
-            address:EDC,
-            name:"EDC",
-            repo:"https://github.com/priyanshu8346/edc-1"
-        },
-        {
-          id:7,
-          address:Food,
-          name:"Food-ordering-app",
-          repo:"https://github.com/priyanshu8346/food-app"
-      }
-    ]
+  const links=[
+    {
+      id:1,
+      address:reviewAI,
+      name:"reviewAI",
+      repo:"https://github.com/priyanshu8346/reviews_app_frontend"
+    },
+    {
+      id:2,
+      address:Youtube,
+      name:"YoutubeGPT",
+      repo:"https://github.com/priyanshu8346/Youtube-rag-frontend"
+    },
+    {
+      id:3,
+      address:project1,
+      name:"Tijori",
+      repo:"https://github.com/priyanshu8346/Tijori"
+    },
+    {
+      id:4,
+      address:pocketnews,
+      name:"PocketNews",
+      repo:"https://github.com/priyanshu8346/PocketNews"
+    },
+    {
+      id:5,
+      address:textPlay,
+      name:"Text-Play",
+      repo:"https://github.com/priyanshu8346/text-play"
+    },
+    {
+      id:6,
+      address:reactWeather,
+      name:"Weather App",
+      repo:"https://github.com/priyanshu8346/weather-app"
+    },
+    {
+      id:7,
+      address:scintillation,
+      name:"Scintillation",
+      repo:"https://github.com/priyanshu8346/scintillation2023"
+    },
+    {
+      id:8,
+      address:EDC,
+      name:"EDC",
+      repo:"https://github.com/priyanshu8346/edc-1"
+    },
+    {
+      id:9,
+      address:Food,
+      name:"Food-ordering-app",
+      repo:"https://github.com/priyanshu8346/food-app"
+    }
+  ]
     
   return (
     <div

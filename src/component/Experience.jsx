@@ -7,9 +7,11 @@ import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import sql from "../assets/SQL.png";
 import javascript from "../assets/javascript.png";
-import  dsa  from "../assets/Data structure.png";
-import  express  from "../assets/expressjs.png";
-import  mongodb  from "../assets/icons8-mongodb-240.png";
+import dsa from "../assets/Data structure.png";
+import express from "../assets/expressjs.png";
+import mongodb from "../assets/icons8-mongodb-240.png";
+// Add langchain import (user will add image)
+import langchain from "../assets/Langchain.png";
 
 
 
@@ -82,8 +84,14 @@ const Experience = () => {
             address:mongodb,
             style:"shadow-green-800",
             title:"mongoDB"
+        },
+        // Langchain entry
+        {
+            id:12,
+            address:langchain,
+            style:"shadow-purple-500",
+            title:"Langchain"
         }
-        
     ]
 
     return (

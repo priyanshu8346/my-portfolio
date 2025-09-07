@@ -34,7 +34,7 @@ const Home = () => {
             className=" py-4 text-gray-400 text-xs: "
             style={{ fontSize: "1rem", maxWidth: "80%" }}
           >
-            A driven and passionate final year IIEST Shibpur student with a strong foundation in MERN stack and DSA. Proven problem-solving skills with over 700 DSA problems conquered. A team player with exceptional leadership and organizational abilities. Open to work and eager to make a positive impact.
+            A driven and passionate Software Engineer at TCS with one year of experience in SAP CPI, enterprise integration, and modern web technologies. Strong foundation in the MERN stack and LangChain, backed by proven problem-solving skills with over 700 DSA problems solved. A collaborative team player with exceptional leadership and organizational abilities. Always eager to learn, adapt, and make a meaningful impact.
           </p>
           <div>
             <div className="flex flex-row">
